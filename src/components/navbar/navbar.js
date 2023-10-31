@@ -22,8 +22,8 @@ const Navbar = () => {
                 </h1>
 
                 <div className='flex lg:flex items-center bg-gray-200 rounded-full p-1 text-[14px]'>
-                    <p className=' bg-black text-white rounded-full p-2'>Delivery</p>
-                    <p className='p-2'>Pickup</p>
+                    <p className='hidden lg:block bg-black text-white rounded-full p-2'>Delivery</p>
+                    <p className='hidden lg:block p-2'>Pickup</p>
                 </div>
             </div>
 
@@ -39,7 +39,7 @@ const Navbar = () => {
 
             {/* Cart button  */}
 
-            <button className=' bg-black text-white md:flex items-center py-2 rounded-full p-4 '>
+            <button className=' bg-black text-white md:rounded-md flex items-center py-2 rounded-full p-4 '>
                 <BsFillCartFill size={20} className='mr-2' /> Cart
             </button>
 

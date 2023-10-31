@@ -3,6 +3,8 @@ import Navbar from "./components/navbar/navbar";
 import Hero from "./components/hero/hero";
 import Headlinecards from "./components/headlinecards/headlinecards";
 import Food from "./components/food/food";
+import Categories from "./components/categories/categories";
+
 
 function App() {
   return (
@@ -11,6 +13,7 @@ function App() {
       <Hero />
       <Headlinecards />
       <Food />
+      <Categories/>
     </div>
   );
 }
